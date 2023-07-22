@@ -85,3 +85,22 @@ struct YouTubePlayerViewController: UIViewRepresentable {
         
     }
 }
+
+
+
+extension String {
+   func deletingPrefixes(_ prefixes: [String]) -> String {
+       var resultString = self
+
+       prefixes.map {
+           if resultString.hasPrefix($0.uppercased()) || resultString.hasPrefix($0.lowercased()) {
+              resultString = resultString.dropFirst($0.count).description
+              print("\(resultString)")
+          }
+      }
+      return resultString
+   }
+}
+
+
+
