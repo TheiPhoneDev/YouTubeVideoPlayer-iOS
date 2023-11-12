@@ -1,5 +1,5 @@
 # YouTubeVideoPlayer-iOS
-A simple and easy way to implement the YouTube player in your iOS app
+A simple method to implement the YouTube video player in your iOS app
 
 Use this library to fetch YouTube videos from URL.
 
