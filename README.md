@@ -9,11 +9,11 @@ Use this library to fetch YouTube videos from URL.
 
 # Usage
 
-'''swift
+
 var string: String
 
 YouTubePlayerViewController(VideoID: string)
-'''
+
 
 
 
